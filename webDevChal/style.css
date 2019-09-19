@@ -65,6 +65,24 @@ ul {
     color: #e6e6e6;
 }
 
+.clearfix1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.clearfix2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.clearfix3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 img {
     float: left;
 }
