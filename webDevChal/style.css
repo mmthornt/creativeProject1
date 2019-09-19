@@ -1,0 +1,118 @@
+.header {
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #000066;
+    color: #e6e6e6;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: teal;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.top-left {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    transform: translate(-25%, -75%);
+}
+
+.center {
+    position: absolute;
+    top: 45%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom-left {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    transform: translate(-75%, -25%);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #666666;
+    color: #e6e6e6;
+}
+
+img {
+    float: left;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 16px;
+    background-color: #808080;
+}
+
+input[type=name],
+input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=name]:focus, input[type=email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.registerbtn {
+    background-color: #0073e6;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+a {
+    color: #80e5ff;
+}
