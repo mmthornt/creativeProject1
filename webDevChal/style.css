@@ -75,7 +75,7 @@ img {
 
 .container {
     padding: 16px;
-    background-color: #808080;
+    background-color: w3-light-gray;
 }
 
 input[type=name],
@@ -100,7 +100,7 @@ hr {
 
 .registerbtn {
     background-color: #0073e6;
-    color: white;
+    color: w3-light-gray;
     padding: 16px 20px;
     margin: 8px 0;
     border: none;
@@ -113,6 +113,3 @@ hr {
     opacity: 1;
 }
 
-a {
-    color: #80e5ff;
-}
