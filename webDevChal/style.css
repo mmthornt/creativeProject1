@@ -41,8 +41,8 @@
 
 .center {
     position: absolute;
-    top: 45%;
-    left: 51%;
+    top: 20%;
+    left: 80%;
     transform: translate(-50%, -50%);
 }
 
@@ -65,6 +65,24 @@ ul {
     color: #e6e6e6;
 }
 
+.clearfix1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.clearfix2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.clearfix3::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 img {
     float: left;
 }
@@ -75,7 +93,7 @@ img {
 
 .container {
     padding: 16px;
-    background-color: w3-light-gray;
+    background-color: #808080;
 }
 
 input[type=name],
@@ -88,9 +106,10 @@ input[type=email] {
     background: #f1f1f1;
 }
 
-input[type=name]:focus, input[type=email]:focus {
-  background-color: #ddd;
-  outline: none;
+input[type=name]:focus,
+input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
 }
 
 hr {
@@ -100,7 +119,7 @@ hr {
 
 .registerbtn {
     background-color: #0073e6;
-    color: w3-light-gray;
+    color: white;
     padding: 16px 20px;
     margin: 8px 0;
     border: none;
@@ -113,3 +132,36 @@ hr {
     opacity: 1;
 }
 
+a {
+    color: #80e5ff;
+}
+
+/*for slideshow*/
+
+.mySlides {
+    display: none
+}
+
+.w3-left,
+.w3-right,
+.w3-badge {
+    cursor: pointer
+}
+
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0
+}
+
+/*text*/
+
+h2 {
+    text-align: center
+}
+
+/*menu bar*/
+
+backgroundColor {
+    background-color: navy;
+}
